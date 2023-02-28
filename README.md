@@ -61,7 +61,7 @@ Finally, the script prints 'To end review click control + c'. This is a message 
 Overall, this script appears to be designed to automatically classify user responses and provide appropriate feedback, presumably to assist in some sort of customer service or feedback collection process.
 
 #Credits
-This motion detector app was built by **PRAJOL SHRESTHA** as a personal project. If you have any feedback or suggestions, feel free to create a pull request or contact me via email.
+This code was built by **PRAJOL SHRESTHA** as a personal project. If you have any feedback or suggestions, feel free to create a pull request or contact me via email.
 
 #Licence
-This motion detector app is licensed under the MIT License. You are free to use, modify, and distribute this application as long as you give credit to the original author.
+This code is licensed under the MIT License. You are free to use, modify, and distribute this application as long as you give credit to the original author.
