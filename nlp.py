@@ -1,7 +1,12 @@
 """
 SENTIMENT ANALYSIS USING NATURAL LANGUAGE PROCESSING WITH DIFFERENT ML MODELS
 A: NAIVE BAYES
-B:
+B: SVM
+C: Kernel SVM
+D: Decision Tree
+E: Random Forest
+F: Logistic Regression
+G: KNN
 """
 
 #a)import libraries
@@ -58,12 +63,6 @@ for i in range(0,1000):  #we have 1000 reviews in our dataset
 
     corpus.append(review) #appends each (1000) review in 'corpus' variable after seperating
 
-
-#print(type(review))
-#print(type(all_stopwords))
-#print(type(a))
-#print(corpus)
-#print(len(all_stopwords))
 
 
 #c)lets create bag of words model
