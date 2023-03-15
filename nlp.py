@@ -70,15 +70,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(max_features=1500)
 x = cv.fit_transform(corpus).toarray() #Convert a collection of text documents to a matrix of token counts.
 y = dataset.iloc[:,-1].values
-#print(len(x[0]))
-#print(x)
-#print(y)
+
 
 
 #d)split data for train and test
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.2,random_state=0)
-#print(x_train)
+
 
 
 ###########################################e)training and predict#####################################
